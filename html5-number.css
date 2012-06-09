@@ -1,0 +1,118 @@
+.html5Number-wrap {
+	position: relative;
+}
+.html5Number-controls {
+	position: absolute;
+	right: 5px;
+	top: 2px;
+}
+.html5Number-controls a {
+	display: block;
+	text-decoration: none;
+	color: #444;
+	font-size: .5em;
+	line-height: 1em;
+	text-align: center;
+	padding: 0 1px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* 
+ * Make it Pretty
+ */
+html {
+	background: rgb(236,237,223);
+}
+body {
+	font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 13px;
+	color: #444;
+	
+	width: 90%;
+	max-width: 775px;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 1em auto;
+	padding: 2%;
+	background: #fff;
+	border: 2px solid #444;
+	
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-ms-box-shadow: 1px 1px 10px #444;
+	-o-box-shadow: 1px 1px 10px #444;
+	-webkit-box-shadow: 1px 1px 10px #444;
+	-moz-box-shadow: 1px 1px 10px #444;
+	box-shadow: 1px 1px 10px #444;
+}
+#main {
+	overflow: hidden;
+}
+h1, h2 {
+	text-align: center;
+}
+h1 {
+	font-size: 1.7em;
+	margin: 0 0 .25em;
+}
+h2 {
+	font-size: 1em;
+	margin: 0 0 1em;
+}
+
+.field-wrap {
+	overflow: hidden;
+	margin: 0 0 1em;
+}
+.field-wrap label,
+.field-wrap input,
+.field-wrap select,
+.field-wrap textarea {
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+}
+.field-wrap label {
+	float: left;
+	width: 40%;
+	text-align: right;
+	padding: 3px 3px 3px 0;
+	font-size: .87em;
+}
+.field-wrap input,
+.field-wrap select,
+.field-wrap textarea {
+	float: right;
+	width: 60%;
+	padding: 3px;
+}
+.field-wrap.submit {
+	width: 60%;
+	float: right;
+}
+.field-wrap.submit input {
+	float: none;
+	width: auto;
+	padding: 5px;
+}
+@media all and (min-width:800px) {
+	body {
+		font-size: 16px;
+		width: 60%;
+		padding: 2% 4%;
+	}
+
+}
+

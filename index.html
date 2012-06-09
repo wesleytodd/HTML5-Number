@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 Number Input Polyfill</title>
+	<meta name="description" content="HTML5 Number Input Polyfill">
+	<meta name="author" content="Wes Todd">
+	
+	<link rel="stylesheet" href="html5-number.css">
+	
+	<script src="modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>HTML5 Number Input</h1>
+	</header>
+	<div id="main" role="main">
+		
+		<form action="/" method="post">
+			<div class="field-wrap number">
+				<label for="quant_1">Number (Min:1, Max:20)</label>
+				<input type="number" min="1" max="20" name="quant_1" id="quant_1" />
+			</div>
+			<div class="field-wrap number">
+				<label for="quant_2">Number (Min:5, Step:3)</label>
+				<input type="number" min="5" step="3" name="quant_2" id="quant_2" />
+			</div>
+			<div class="field-wrap number">
+				<label for="quant_3">Number (Min:-5, Max:5, Step:5)</label>
+				<input type="number" min="-5" max="5" step="5" name="quant_3" id="quant_3" />
+			</div>
+		</form>
+		
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+	<script src="jquery.html5-number.js"></script>
+</body>
+</html>
